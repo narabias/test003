@@ -68,6 +68,9 @@ figcaption { margin-top: 8px; color: var(--muted); font-size: 11px; letter-spaci
 .story-body { max-width: 720px; font-size: 16px; line-height: 2.15; letter-spacing: .08em; }
 .story-body p { margin: 0 0 22px; }
 rt { font-size: .52em; line-height: 1; letter-spacing: 0; font-weight: 500; }
+.more-info-row { display: flex; justify-content: flex-end; margin-top: 42px; padding-top: 14px; border-top: 1px solid #b9b3aa; }
+.more-info-link { color: var(--red); font-size: 13px; font-weight: 700; letter-spacing: .06em; text-decoration: none; }
+.more-info-link:hover, .more-info-link:focus-visible { text-decoration: underline; text-underline-offset: 4px; }
 blockquote { margin: 28px 0; padding: 15px 20px; border-left: 5px solid var(--red); background: rgba(167,43,34,.07); font-size: 18px; font-weight: 700; line-height: 1.8; letter-spacing: .07em; }
 .side-note { border-top: 4px solid var(--ink); border-bottom: 1px solid var(--ink); padding: 14px 0 16px; }
 .side-note-title { margin-bottom: 12px; font-size: 15px; font-weight: 800; letter-spacing: .18em; }
@@ -104,6 +107,7 @@ blockquote { margin: 28px 0; padding: 15px 20px; border-left: 5px solid var(--re
   .image-stamp { right: 12px; bottom: 12px; font-size: 12px; }
   .story-grid { grid-template-columns: 1fr; gap: 34px; margin-top: 28px; }
   .story-body { font-size: 15px; line-height: 2.05; }
+  .more-info-row { justify-content: flex-start; margin-top: 34px; }
   .side-note { max-width: 100%; }
   .site-footer { flex-wrap: wrap; }
   .copyright { width: 100%; }
